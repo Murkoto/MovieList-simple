@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_movie_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.win10.recyclerview.MovieDetailActivity">
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_title_detail"
+        android:hint="Title"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_director_detail"
+        android:hint="Director"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/movie_title_detail"
+        />
+
+    <TextView
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/movie_genre_detail"
+        android:hint="Genre"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/movie_director_detail"
+        />
+
+    <TextView
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/movie_year_detail"
+        android:hint="Year"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/movie_genre_detail"
+        />
+
+</RelativeLayout>
